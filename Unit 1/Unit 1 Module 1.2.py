@@ -1,6 +1,6 @@
 #Will C.
 #Python 1
-#Unit 1, mod 2
+#Unit 1, mod 1.2
 
 #Task 1
 # [ ] enter a string in the print() function using single quotes
