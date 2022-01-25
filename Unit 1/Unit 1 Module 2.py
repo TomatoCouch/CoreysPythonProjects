@@ -35,3 +35,29 @@ print(current_msg)
 print(current_msg)
 current_msg="aghghahgghahgh"
 print (current_msg)
+
+#Task 4
+# [ ] assign a string value to a variable student_name
+student_name="Greasy Steve"
+# [ ] print the value of variable student_name
+print(student_name)
+# [ ] assign the student_name variable a different string value (a different name)
+student_name="Gerald"
+# [ ] print the value of variable student_name
+print(student_name)
+# [ ] assign a 3rd different string value, to the variable name
+student_name="Dell Conagher"
+# [ ] print the value of variable name
+print(student_name)
+# [ ] assigning a value to a variable called bucket
+bucket="Dear God."
+# [ ] print the value of bucket
+print(bucket)
+# [ ] assign an Integer value (no quotes) to the variable bucket
+bucket=1415
+# [ ] print the value of bucket
+print(bucket)
+# [ ] print integer 123 number
+print(123)
+# [ ] print string "123" number
+print("123")
