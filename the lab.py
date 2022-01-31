@@ -13,11 +13,17 @@
 #print(are_these_case_sensitive) (ditto)
 
 #now for The Funny(tm)
-is_there_a_pipe_bomb_in_your_mailbox=True
-print("Let's see if there's a pipe bomb in your mailbox.")
-print("In order to do so, we'll check the boolean is_there_a_pipe_bomb_in_your_mailbox.")
-print("The boolean is:")
-print(is_there_a_pipe_bomb_in_your_mailbox)
-if(is_there_a_pipe_bomb_in_your_mailbox==True): 
-    print("Run."), 
-else: print("You're safe, for now.")
+#is_there_a_pipe_bomb_in_your_mailbox=True
+#print("Let's see if there's a pipe bomb in your mailbox.")
+#print("In order to do so, we'll check the boolean is_there_a_pipe_bomb_in_your_mailbox.")
+#print("The boolean is:")
+#print(is_there_a_pipe_bomb_in_your_mailbox)
+#if(is_there_a_pipe_bomb_in_your_mailbox==True): 
+#    print("Run."), 
+#else: print("You're safe, for now.") (commented so I could keep going)
+
+print("What is your name?")
+name=input()
+if name=="Elon Musk":
+    print("There is an IED on your porch.")
+else: print("You may live.")
