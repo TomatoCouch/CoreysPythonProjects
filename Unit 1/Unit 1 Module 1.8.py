@@ -19,4 +19,3 @@ print("Are spaces and punctuation Alphabetical?".isalpha())
 alpha_test="test string"
 # [ ] use .isalpha() on string variable alpha_test
 print(alpha_test.isalpha())
-
