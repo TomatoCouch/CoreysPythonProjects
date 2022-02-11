@@ -28,10 +28,17 @@
 #    print("There is an IED on your porch.")
 #else: print("You may live.")
 
-def fishstore(fish, price = "1"):
-    sentence = "Fish Type: " + fish + " costs $" + price
-    return sentence
-fish_entry = input("Enter fish name: ")
-price_entry = input("Enter the fish price (no symbols): ")
+#def fishstore(fish, price = "1"):
+#    sentence = "Fish Type: " + fish + " costs $" + price
+#    return sentence
+#fish_entry = input("Enter fish name: ")
+#price_entry = input("Enter the fish price (no symbols): ")
 
-print(fishstore(fish_entry, price_entry))
+#print(fishstore(fish_entry, price_entry))
+
+#Official bitch counter
+name = input("What is your name? ").lower()
+if name=="aiden":
+    print("You have zero (0) bitches.")
+else:
+    print("You have an unknown amount of bitches.")
