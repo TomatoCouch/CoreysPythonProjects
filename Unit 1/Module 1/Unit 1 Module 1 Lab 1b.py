@@ -45,9 +45,12 @@ print("color".startswith("b"))
 # [ ] get user input for a variable named color
 color=input("Choose a color:")
 # [ ] modify color to be all lowercase and print
-
+print(color.lower())
 # [ ] get user input using variable remind_me and format to all **lowercase** and print
-
+remind_me=input()
+print(remind_me.lower())
 # [ ] test using input with mixed upper and lower cases
-
+test=input("say something wacky with mixed upper and lower cases")
 # [] get user input for the variable yell_this and format as a "YELL" to ALL CAPS
+yell_this=input("What would you like to yell?")
+print(yell_this.upper())
