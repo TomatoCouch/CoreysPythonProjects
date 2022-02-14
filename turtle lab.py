@@ -6,6 +6,8 @@
 #    s = turtle.getscreen()
 #AttributeError: partially initialized module 'turtle' has no attribute 'getscreen' (most likely due to a circular import)
 #what
+#maybe if i didn't make the file name and library name as the same thing, this would've worked first time???
+#god i'm stupid
 import turtle
 
 s = turtle.getscreen()
