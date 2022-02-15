@@ -37,12 +37,13 @@
 #print(fishstore(fish_entry, price_entry))
 
 #Official bitch counter
-name = input("What is your name? ").lower()
-if name=="aiden":
-    print("You have zero (0) bitches.")
-else:
-    print("You have an unknown amount of bitches.")
+#name = input("What is your name? ").lower()
+#if name=="aiden":
+#    print("You have zero (0) bitches.")
+#else:
+#    print("You have an unknown amount of bitches.")
 
+#Super fun true or false incredible ultra difficult quiz made entirely in python!
 print("Super fun true or false incredible ultra difficult quiz made entirely in python!")
 print("By Will")
 start=input("Would you like to begin? ").lower()
@@ -63,5 +64,7 @@ if yes_start==True:
 q1_answer=input("True or False? ").lower()
 if q1_answer=="true":
     print("Correct.")
+    q1_done=True
 else:
     print("Incorrect.")
+    q1_done=True
