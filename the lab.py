@@ -42,3 +42,26 @@ if name=="aiden":
     print("You have zero (0) bitches.")
 else:
     print("You have an unknown amount of bitches.")
+
+print("Super fun true or false incredible ultra difficult quiz made entirely in python!")
+print("By Will")
+start=input("Would you like to begin? ").lower()
+if start=="yes":
+    print("Great!")
+    yes_start=True
+elif start=="no":
+    print("Ok")
+    quit
+else:
+    print("I don't understand your response.")
+    quit
+
+if yes_start==True:
+    print("Question 1:")
+    print("The CIA took part in an experiment called MKUltra where they tested drugs abilities to enhance human abilities. During this, a few people died, one of which was an agent who expressed dissent towards the experiment. He was secretly injected with LSD leading to his suicide.")
+    print('(Please input your answer as "True" or "False"')
+q1_answer=input("True or False? ").lower()
+if q1_answer=="true":
+    print("Correct.")
+else:
+    print("Incorrect.")
