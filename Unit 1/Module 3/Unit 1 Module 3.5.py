@@ -42,7 +42,7 @@ else:
     quit
 #that one took a lot of troubleshooting and trial and error, lots of error
 
-#Task 4
+#Task 3
 # [ ] create improved multiply() function and test with /, no argument, and an invalid operator ($)
 #def improved_multiply(number1,operator,number2):
 #    if operator=="/":
@@ -62,7 +62,7 @@ else:
 #number2=input("Please enter number 2. ")
 #improved_multiply(number1,operator,number2)
 
-#Actual task 4
+#Actual task 3
 def improved_multiply2(number12,number22):
     product=int(number12)*int(number22)
     quotient=int(number12)/int(number22)
