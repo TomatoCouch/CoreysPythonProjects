@@ -52,32 +52,32 @@ if doQuestions==True:
     guess1=input("First guess: ")
     if (guess1.lower()in(birds))==True:
         print("Correct bird! 1/3")
-        quit
+        quit()
     else: 
         print("Incorrect bird.")
     guess2=input("Second guess: ")
     if (guess2.lower()in(birds))==True:
         print("Correct bird! 2/3")
-        quit
+        quit()
     else:
         print("Incorrect bird.")
     guess3=input("Final guess: ")
     if (guess3.lower()in(birds))==True:
         print("Correct bird! 3/3")
-        quit
+        quit()
     else:
         print("Incorrect bird.")
         print("Game over!")
-        quit
+        quit()
 else:
     dummyValue=False
 if doQuestionsBad==True:
     guess1bad=input("Guess. ")
     if (guess1bad.lower()in(birds))==True:
         print("Wow, you did it. Now get out.")
-        quit
+        quit()
     else:
         print("Wow, you suck. Now get out.")
-        quit
+        quit()
 else:
     print("You shouldn't be this far down")
