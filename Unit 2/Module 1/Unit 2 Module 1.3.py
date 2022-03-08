@@ -33,4 +33,4 @@ print(drow_gnol)
 fav_color=input("What is your favorite color? ")
 # [ ] print fav_color backwards + fav_color
 print(fav_color[::-1]+fav_color)
-# example: "Red" prints "deRRed"s
+# example: "Red" prints "deRRed"
