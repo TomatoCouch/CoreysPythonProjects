@@ -42,6 +42,6 @@ space_index = quote.find(" ")
 while space_index != -1: 
     # code to print word (index slice start:space_index)
     print(quote[start:space_index])
-    start=next_space+1
-    next_space=quote.find(" ",start)
+    start=space_index+1
+    space_index=quote.find(" ",start)
 print(quote[start:])
