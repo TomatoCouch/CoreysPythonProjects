@@ -129,4 +129,5 @@ print(code_tip.find('i'))
 #Hint: use  .lower() .
 # [] create words after "G" 
 # sample quote "Wheresoever you go, go with all your heart" ~ Confucius (551 BC - 479 BC)
-quote='"Wheresoever you go, go with all your heart" ~ Confucius (551 BC - 479 BC)'
+quote='"Wheresoever you go, go with all your heart"'
+print('"Wheresoever you with your heart"')
