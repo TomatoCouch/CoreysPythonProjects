@@ -49,7 +49,7 @@ print("By Will")
 start=input("Would you like to begin? ").lower()
 if start=="yes":
     print("Great!")
-    yes_start=True
+    yesStart=True
 elif start=="no":
     print("Ok")
     quit
@@ -57,14 +57,14 @@ else:
     print("I don't understand your response.")
     quit
 
-if yes_start==True:
+if yesStart==True:
     print("Question 1:")
     print("The CIA took part in an experiment called MKUltra where they tested drugs abilities to enhance human abilities. During this, a few people died, one of which was an agent who expressed dissent towards the experiment. He was secretly injected with LSD leading to his suicide.")
     print('(Please input your answer as "True" or "False"')
-q1_answer=input("True or False? ").lower()
-if q1_answer=="true":
+q1Answer=input("True or False? ").lower()
+if q1Answer=="true":
     print("Correct.")
-    q1_done=True
+    q1Correct=True
 else:
     print("Incorrect.")
-    q1_done=True
+    q1Correct=False
