@@ -30,12 +30,11 @@ else:
 # [ ] Write a program to print the absolute path of all directories in "parent_dir"
 # HINTS: 
 # 1) Verify you are inside "parent_dir" using os.getcwd() 
-if os.getcwd=="parent_dir":
-
 # 2) Use os.listdir() to get a list of files and directories in "parent_dir" 
-   dadDir=os.listdir()
-else:
-    print("Not in parent_dir")
-# 3) Iterate over the elements of the list and print the absolute paths of all the directories 
-for dir in dadDir:
-    print(os.path.abspath(dir))
+# 3) Iterate over the elements of the list and print the absolute paths of all the directories
+if os.getcwd=="parent_dir":
+    dadDir=os.listdir()
+    for dir in dadDir:
+        print(os.path.abspath(dir))
+    else:
+        print("Not in parent_dir")
