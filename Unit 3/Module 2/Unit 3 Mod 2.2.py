@@ -1,6 +1,6 @@
 #Will C.
 #Python 1
-#Unit 3, Mod 2.3
+#Unit 3, Mod 2.2
 
 #Task 1
 # [ ] The following program tests if `num` is prime or not, use a `break` statement to improve its efficiency
