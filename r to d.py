@@ -14,7 +14,8 @@ while True:
             doDeg=False
             doRad=True
         elif num.lower()=="pi":
-            print("no")
+            while True:
+                print("no")
         else:
             print(num,"degrees is equivalent to:",float(num)*(pi/180.0),"radians.")
     elif doDeg==False and doRad==True:
@@ -25,6 +26,7 @@ while True:
             doDeg=True
             doRad=False
         elif num.lower()=="pi":
-            print("no")
+            while True:
+                print("no")
         else:
             print(num,"radians is equivalent to:",float(num)*(180.0/pi),"radians.")
