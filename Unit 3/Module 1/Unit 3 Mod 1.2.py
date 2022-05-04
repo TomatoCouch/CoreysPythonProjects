@@ -82,6 +82,6 @@ print(h1)
 dt3=datetime.today
 d2=dt3.date()
 # [ ] Write a program that: 
-# 1) prompts the user for a time (hours and minutes only) 
+# 1) prompts the user for a time (hours and minutes only)
 # 2) gets the current date 
 # 3) combines the collected information into a `datetime` variable 
