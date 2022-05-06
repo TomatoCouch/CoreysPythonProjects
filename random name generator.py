@@ -8,7 +8,6 @@ if yOrN.lower()=="y":
     print("Great!")
     for string in lettersForGeneration:
         random.shuffle(lettersForGeneration)
-        print(lettersForGeneration)
         name=name+string
 elif yOrN.lower()=="n":
     while True:
