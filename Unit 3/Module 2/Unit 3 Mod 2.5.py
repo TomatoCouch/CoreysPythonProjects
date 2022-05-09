@@ -146,3 +146,56 @@ else:
 # [ ] Write a program to prompt the user for an input outside the ranges [-50, 0] and [100, 200].
 # If the user input is invalid, the program prompt the user again for a valid input.
 # The range limits (-50, 0, 100, 200) are not valid inputs
+while True:
+    numChoice=int(input("Enter a number outside the ranges [-50, 0,] and [100, 200] "))
+    if numChoice<-50:
+        break
+    elif numChoice>0:
+        if numChoice<100:
+            break
+        elif numChoice>200:
+            break
+        else:
+            pass
+    elif numChoice<100:
+        if numChoice>0:
+            break
+        elif numChoice<-50:
+            break
+        else:
+            pass
+
+#Task 4
+# [ ] Write a program to prompt the user for an input from a predefined numerical list `valid_nums`
+# If the user input is invalid, the program prompts the user again for a valid input.
+valid_nums = [1, 2, 8, 16, 32, 64]
+num=int(input("Enter a valid number. "))
+while num not in valid_nums:
+    num=int(input("Enter a valid number. "))
+# [ ] The `records` list contains information about some company's employees
+# each of the elements in `records` is a list containing the name and ID of an employee.
+# Write a program that prompts the user for a name and return the ID of the employee if a record is found
+records = [['Colette', 22347], ['Skye', 35803], ['Alton', 45825], ['Jin', 24213]]
+name=input("Enter employee name. ")
+if name.lower()=="colette":
+    print(22347)
+elif name.lower()=="skye":
+    print(35803)
+elif name.lower()=="alton":
+    print(45825)
+elif name.lower()=="jin":
+    print(24213)
+else:
+    print("Employee not found.")
+# [ ] Complete the `vowel_counter` function below so it returns the number of vowels (a, e, i, o, u) in `sentence`
+vowels=["a","e",'i','o','u']
+def vowel_counter(sentence):
+    vowelCount=0
+    for char in sentence:
+        if char.lower() in vowels:
+            vowelCount=+1
+        else:
+            pass
+    return vowelCount
+sentenceInput=input("Enter a sentence. ")
+print(vowel_counter(sentenceInput))
