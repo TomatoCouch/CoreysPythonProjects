@@ -1,3 +1,2 @@
-youAreAlive=True
-while youAreAlive==True:
+while True:
     print("gay")
