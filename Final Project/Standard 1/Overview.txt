@@ -1,0 +1,2 @@
+Goal 1: Students create and can understand simple programs using basic procedural programming with Python 3.
+Goal 2: Students create and can understand and simple iteration in order to automate repetitive tasks with basic procedural programming using Python 3. 
